@@ -48,30 +48,30 @@ variable "vpc_cidr_block" {
 
 variable "subnet_cidr_block" {
   type        = string
-  description = "The CIDR block to associate to the subnet"
+  description = "CIDR block to associate to the subnet"
   default     = "10.0.1.0/24"
 }
 
 variable "vpc_tag_name" {
   type        = string
   description = "Assign name to vpc"
-  default     = "ec2-vpc-terraform"
+  default     = "ec2-vpc-terra"
 }
 
 variable "ig_tag_name" {
   type        = string
   description = "Assign name to the Internet Gateway"
-  default     = "ec2-gateway-terraform"
+  default     = "ec2-gateway-terra"
 }
 
 variable "subnet_tag_name" {
   type        = string
   description = "Assign name to subnet"
-  default     = "ec2-subnet-terraform"
+  default     = "ec2-subnet-terra"
 }
 
 variable "sg_tag_name" {
   type        = string
   description = "Assign name to the security group"
-  default     = "ec2-sg-terraform"
+  default     = "ec2-sg-terra"
 }
